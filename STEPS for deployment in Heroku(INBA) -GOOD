@@ -1,0 +1,9 @@
+1. in command prompt or pycharm command prompt type  heroku login -i
+2. heroku create
+3. git init
+4.git add .
+5.git commit -am "make it better"
+6.heroku git:remote -a XXXXX           (XXXX is  app name that you can find in above after heroku create)
+7.git push heroku master
+
+Then open heroku in browser then clik yourapp.app that will open
